@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-image:
+        radial-gradient(at 30% 35%, #4f6f97, transparent 60%),
+        radial-gradient(at 70% 65%, #5BC0BE, transparent 60%),
+        radial-gradient(at 30% 35%, #4f6f97, transparent 40%),
+        radial-gradient(at 70% 65%, #5BC0BE, transparent 40%),
+        radial-gradient(at 30% 35%, #4f6f97, transparent 20%),
+        radial-gradient(at 70% 65%, #5BC0BE, transparent 20%);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.form-login {
+    width: 45%;
+    height: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.409);
+    border-radius: 24px;
+    backdrop-filter: blur(30%);
+    border: 2px solid rgba(128, 128, 128, 0.153);
+    box-shadow: 0 0 10px rgba(148, 148, 148, 0.138);
+}
+
+.form-register {
+    width: 45%;
+    height: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.409);
+    border-radius: 24px;
+    backdrop-filter: blur(30%);
+    border: 2px solid rgba(128, 128, 128, 0.153);
+    box-shadow: 0 0 10px rgba(148, 148, 148, 0.138);
+}
+
+.form-login:hover {
+    background-color: rgba(255, 255, 255, 0.655);
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.mt {
+    margin-top: 30px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.control {
+    border-radius: 8px;
+    height: 30px;
+    border: 2px solid rgba(128, 128, 128, 0.632);
+    font-size: 17px;
+    font-weight: 500;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.btn {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+    width: 50%;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn:active {
+    background-color: #49a09f;
+}
+
+.linear:focus {
+    box-shadow: 0px 0px 5px #49a09f;
+}
+
+.linear {
+    background-color: #5BC0BE;
+    border: 1px solid #49a09f;
+}
+
+.mx {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+input:focus {
+    outline: 2px solid rgba(128, 128, 128, 0.781);
+}
+
+.link {
+    text-decoration: none;
+    color: #04a0d3;
+    font-weight: 500;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
